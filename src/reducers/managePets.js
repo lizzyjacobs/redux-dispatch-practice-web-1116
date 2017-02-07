@@ -22,8 +22,5 @@ export function dispatch(action){
 }
 
 export function render(){
-  var displayPets = state.pets.map((pet) => {
-    return `<li>${pet.name}</li>`
-  })
-  document.getElementById('container').innerHtml = `<ul>${displayPets}</ul>`
+
 }
